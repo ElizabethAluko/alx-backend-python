@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Contains a function to demostrate iterable object  annotations"""
 from typing import TypeVar, Mapping, Any, Union
-
-
 T = TypeVar('T')
 
 
