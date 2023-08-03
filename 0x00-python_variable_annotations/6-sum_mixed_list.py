@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Contains a function to demostrate annotations - mixed lists"""
-from typing import List
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: List[float | int]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
     """
     Add the lists items of a list
 
