@@ -2,8 +2,9 @@
 """Check type annotation using mypy"""
 from typing import Tuple, List
 
+
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
-    """Debugging"""
+    """Function was checked for type hint and corrected"""
 
     zoomed_in: List[int] = [
         item for item in lst
