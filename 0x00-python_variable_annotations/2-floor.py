@@ -7,4 +7,4 @@ def floor(n: float) -> int:
     returns the floor of a numbet
     n: float number to get its floor value
     """
-    return(n // 1)
+    return int(n // 1)
