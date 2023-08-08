@@ -5,7 +5,7 @@ import asyncio
 from typing import Coroutine
 
 # Importing wait_random from 0-basic_async_syntax.py
-from 0-basic_async_syntax import wait_random
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 def task_wait_random(max_delay: int) -> asyncio.Task:
     loop = asyncio.get_event_loop()
