@@ -3,9 +3,10 @@
 
 import asyncio
 import random
+from typing import Iterator
 
 
-async def async_generator():
+async def async_generator() -> Iterator[float]:
     """Generate loop 10 times and each asynchronously wait 1s """
 
     for i in range(10):
